@@ -99,6 +99,24 @@
      html{
         font-size:33%;
      }
+
+     .navbar ul{
+
+      & li{
+        font-size:1.33rem;
+
+        & a{
+      
+         &:hover{
+            padding:1.25rem;
+            outline: 2.5px double $color-white;
+            outline-offset:-.7rem; 
+         }
+   
+      }
+     }
+      
+   }
      
      .about-us{
        & .grid{

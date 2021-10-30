@@ -444,6 +444,12 @@ body {
 @media (max-width: 600px) {
   html {
     font-size: 33%; }
+  .navbar ul li {
+    font-size: 1.33rem; }
+    .navbar ul li a:hover {
+      padding: 1.25rem;
+      outline: 2.5px double #fff;
+      outline-offset: -.7rem; }
   .about-us .grid {
     width: 80%; }
   .our-team .grid {
